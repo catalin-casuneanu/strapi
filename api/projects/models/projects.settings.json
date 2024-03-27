@@ -63,6 +63,15 @@
         }
       },
       "type": "richtext"
+    },
+    "Date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "datetime",
+      "default": "2023-04-25T09:00:00.000Z"
     }
   }
 }
