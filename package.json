@@ -1,8 +1,8 @@
 {
-  "name": "my-project",
+  "name": "jba-be",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "2.0.0",
+  "description": "JBA be",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,24 +11,26 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^27.1.0",
-    "@ckeditor/ckeditor5-react": "^3.0.2",
-    "knex": "0.21.18",
-    "pg": "^8.6.0",
-    "better-sqlite3": "^7.6.2",
+    "@ckeditor/ckeditor5-build-classic": "^41.2.1",
+    "@ckeditor/ckeditor5-react": "^6.2.0",
     "@strapi/strapi": "4.21.1",
-    "@strapi/plugin-graphql": "4.21.1",
+    "@strapi/plugin-users-permissions": "4.21.1",
     "@strapi/plugin-i18n": "4.21.1",
-    "@strapi/plugin-users-permissions": "4.21.1"
+    "@strapi/plugin-cloud": "4.21.1",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Kata Kas"
   },
   "strapi": {
     "uuid": "1a2fd960-21ce-4f9c-9848-01c7d6a0c4b9"
   },
   "engines": {
-    "node": ">=14.19.1 <=16.x.x",
+    "node": ">=16.x.x <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
